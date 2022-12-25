@@ -1,0 +1,17 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>spring-auth-server</groupId>
+  <artifactId>spring-auth-server</artifactId>
+  <version>1.0.0</version>
+  <name>spring-auth-server</name>
+  <description>Springboot Authorization Server</description>
+  <packaging>pom</packaging>
+	
+  <modules>
+  	<module>messages-client</module>
+	<module>messages-resource</module>
+	<module>default-authorizationserver</module>
+	<module>federated-identity-authorizationserver</module>
+	<module>custom-consent-authorizationserver</module>
+  </modules>
+</project>
